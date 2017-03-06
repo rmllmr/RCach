@@ -19,8 +19,10 @@ class RCach {
               return cachValue.get(keyRCach);
             }else{
               return -1;
-            };
-        };
+            }
+        }else{
+            return -1;
+        }
     };
     public void putRCach(String keyRCach, Integer valueRCash){
 
